@@ -1,0 +1,109 @@
+2020-01-24 06:21:20,809 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-24 06:21:21,365 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - Registereda user
+2020-01-24 06:21:21,378 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 06:23:25,151 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-24 06:23:25,709 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - Registereda user
+2020-01-24 06:23:25,718 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 06:27:25,225 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-24 06:27:25,748 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - Registereda user
+2020-01-24 06:27:25,753 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 08:36:57,689 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-24 08:36:58,245 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - Registereda user
+2020-01-24 08:36:58,251 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 08:39:12,964 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-24 08:39:15,743 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 08:42:11,004 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 08:42:59,346 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 08:43:58,247 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 08:44:44,485 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - Registereda user
+2020-01-24 08:44:44,493 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 08:45:30,235 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - test case passed
+2020-01-24 08:45:30,963 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-27 04:36:22,279 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:22,279 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:22,695 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:22,702 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:22,991 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:23,160 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:23,406 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:23,573 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:23,710 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-27 04:36:23,776 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:24,174 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:24,501 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:24,642 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - Registereda user
+2020-01-27 04:36:29,808 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:30,052 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:36,052 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:36,336 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:36,705 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:37,076 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:37,349 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:37,585 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:38,038 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:36:38,425 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:54,229 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:54,230 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:54,621 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:54,623 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:54,867 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:55,055 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:55,263 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:55,407 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:55,543 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-27 04:41:55,605 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:41:56,024 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:01,658 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:01,904 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:07,866 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:08,159 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:08,562 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:08,967 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:09,244 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:09,520 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:10,016 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:42:10,429 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:14,814 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:14,814 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:15,200 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:15,205 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:15,460 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:15,603 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:15,825 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:15,943 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:16,075 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-27 04:45:16,170 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:16,566 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:22,285 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:22,817 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:28,845 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:29,111 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:29,473 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:29,877 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:30,215 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:30,460 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:30,890 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:45:31,295 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:07,786 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:07,812 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:08,251 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:08,256 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:08,573 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:08,784 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:09,088 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:09,175 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:09,402 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:10,128 [pool-1-thread-2] INFO com.bookmyfurniture.testcases.LoginTest - Logged in user
+2020-01-27 04:46:10,496 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:10,816 [pool-1-thread-1] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:11,307 [pool-1-thread-1] INFO com.bookmyfurniture.testcases.RegisterTest - Registereda user
+2020-01-27 04:46:16,257 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:16,514 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:22,538 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:22,814 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:23,183 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:23,564 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:23,845 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:24,092 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:24,552 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable
+2020-01-27 04:46:24,920 [pool-1-thread-2] INFO com.bookmyfurniture.utility.PageActions - clickable

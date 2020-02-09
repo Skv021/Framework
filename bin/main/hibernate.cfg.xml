@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+
+	<session-factory>
+
+		<!-- Database Connection Settings -->
+
+		<property name="connection.url">jdbc:mysql://okmry52647dns.eastus.cloudapp.azure.com/bmf-abhishek-jun19-dev?useSSL=false</property>
+		<property name="connection.username">sdetuser1</property>
+
+		<property name="connection.password">Welcome123$</property>
+
+		<!-- Connection Pool Size (built-in) -->
+
+		<property name="connection.pool.size">1</property>
+
+		<!-- SQL Dialect -->
+
+		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+
+		<!-- Disable the second-level cache -->
+
+		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+		<!-- use explicit naming strategy -->
+
+		<!-- <property name="hibernate.physical_naming_strategy">com.mindtree.db.DynamicTableNameAssign</property> -->
+		<!-- <property name="spring.jpa.hibernate.naming.physical-strategy">org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl</property> -->
+
+		<!-- Echo all executed SQL to stdout -->
+
+		<property name="hibernate.show_sql">true</property>
+
+		<!-- Drop the existing tables and create new one -->
+
+		<!-- <property name="hbm2ddl.auto">create</property> -->
+
+		<!-- update the table -->
+		<!--<property name="hbm2ddl.auto">update</property> -->
+
+		<!-- Mention here all the model classes along with their package name -->
+
+		<!--<mapping class="com.mindtree.mercury.entity.UserProfile" />-->
+		<!-- <mapping class="com.mindtree.hibernate.dto.Vehicle"/> -->
+
+		<!-- <mapping resource="userMap.xml" /> -->
+		<!-- <mapping resource="vehicleMap.xml" /> -->
+
+	</session-factory>
+
+</hibernate-configuration>

@@ -1,0 +1,109 @@
+2020-01-24 06:21:20,809 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-24 06:21:21,365 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-01-24 06:21:21,378 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 06:23:25,151 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-24 06:23:25,709 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-01-24 06:23:25,718 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 06:27:25,225 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-24 06:27:25,748 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-01-24 06:27:25,753 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 08:36:57,689 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-24 08:36:58,245 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-01-24 08:36:58,251 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 08:39:12,964 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-24 08:39:15,743 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 08:42:11,004 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 08:42:59,346 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 08:43:58,247 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 08:44:44,485 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-01-24 08:44:44,493 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 08:45:30,235 - com.bookmyfurniture.testcases.RegisterTest -INFO - test case passed
+2020-01-24 08:45:30,963 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-27 04:36:22,279 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:22,279 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:22,695 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:22,702 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:22,991 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:23,160 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:23,406 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:23,573 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:23,710 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-27 04:36:23,776 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:24,174 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:24,501 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:24,642 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-01-27 04:36:29,808 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:30,052 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:36,052 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:36,336 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:36,705 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:37,076 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:37,349 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:37,585 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:38,038 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:36:38,425 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:54,229 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:54,230 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:54,621 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:54,623 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:54,867 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:55,055 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:55,263 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:55,407 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:55,543 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-27 04:41:55,605 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:41:56,024 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:01,658 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:01,904 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:07,866 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:08,159 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:08,562 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:08,967 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:09,244 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:09,520 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:10,016 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:42:10,429 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:14,814 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:14,814 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:15,200 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:15,205 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:15,460 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:15,603 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:15,825 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:15,943 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:16,075 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-27 04:45:16,170 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:16,566 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:22,285 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:22,817 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:28,845 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:29,111 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:29,473 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:29,877 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:30,215 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:30,460 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:30,890 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:45:31,295 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:07,786 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:07,812 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:08,251 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:08,256 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:08,573 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:08,784 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:09,088 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:09,175 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:09,402 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:10,128 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-01-27 04:46:10,496 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:10,816 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:11,307 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-01-27 04:46:16,257 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:16,514 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:22,538 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:22,814 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:23,183 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:23,564 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:23,845 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:24,092 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:24,552 - com.bookmyfurniture.utility.PageActions -INFO - clickable
+2020-01-27 04:46:24,920 - com.bookmyfurniture.utility.PageActions -INFO - clickable
