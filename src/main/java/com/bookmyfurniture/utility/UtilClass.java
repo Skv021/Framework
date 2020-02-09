@@ -1,10 +1,12 @@
 package com.bookmyfurniture.utility;
 
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,7 +24,7 @@ public class UtilClass {
 		logger = Logger.getLogger(this.getClass());
 	}
 
-	public String generateRandomString(int size) {
+	public static String generateRandomString(int size) {
 		String sequence = "abcdefghijklmnopqrstuvwxyz";
 		Random random = new Random();
 		int randomIndex;
@@ -53,5 +55,13 @@ public class UtilClass {
 
 		Thread.sleep(1000);
 		return fileName;
+	}
+	
+	public static String generateEmailId() {
+		return RandomStringUtils.randomAlphanumeric(10);
+	}
+	
+	public static String generateRandomNumber(int size) {
+		return RandomStringUtils.randomNumeric(size);
 	}
 }
