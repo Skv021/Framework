@@ -9,10 +9,12 @@ pipeline {
         }
       }
       stage('Compile') {
+         steps{
         gradle {
             tasks: 'clean'
             tasks: 'test'
         }
+         }
    }
 }
    
