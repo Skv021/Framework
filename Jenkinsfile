@@ -19,7 +19,7 @@ pipeline {
       stage('Post'){
          steps{
        
-          test
+          
           success{
       def jobName = env.JOB_NAME + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
 currentBuild.displayName = "$jobName"
