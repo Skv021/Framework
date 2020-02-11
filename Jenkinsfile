@@ -11,10 +11,7 @@ pipeline {
     
       stage('Compile') {
          steps{
-        gradle {
-            tasks: 'clean'
-            tasks: 'test'
-        }
+        sh 'gradle project/build.gradle classes'
          }
        
 
