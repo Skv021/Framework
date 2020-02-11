@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">23.184s</div>
+<div class="counter">22.766s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,22 +79,22 @@
 </thead>
 <tr>
 <td class="success">Login</td>
-<td class="success">2.539s</td>
+<td class="success">1.647s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">LoginWithWrongPassword</td>
-<td class="success">1.315s</td>
+<td class="success">1.468s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">LoginWithoutEmailId</td>
-<td class="success">7.025s</td>
+<td class="success">7.442s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Logout</td>
-<td class="success">12.305s</td>
+<td class="success">12.209s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -102,28 +102,134 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre> INFO [pool-1-thread-1] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-1] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-1] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-1] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-1] (PageActions.java:117)- clickable
+<pre>ERROR [pool-1-thread-2] (PageActions.java:31)- Current Page URL http://okmry52647dns.eastus.cloudapp.azure.com:9090/home is not matching with expected http://okmry52647dns.eastus.cloudapp.azure.com:9090/user_entry/login url
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]]
+ INFO [pool-1-thread-1] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //span[contains(text(),'Sign In ')]]
+ INFO [pool-1-thread-1] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //span[contains(text(),'Sign In ')]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-1] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //span[contains(text(),'Sign In ')]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+ INFO [pool-1-thread-1] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]]
+ INFO [pool-1-thread-1] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-1] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+ INFO [pool-1-thread-1] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+ INFO [pool-1-thread-1] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] text field
+ INFO [pool-1-thread-1] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter User Name']]
+ INFO [pool-1-thread-1] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter User Name']] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-1] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter User Name']] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter User Name']] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+ INFO [pool-1-thread-1] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter User Name']] text field
+ INFO [pool-1-thread-1] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter User Name']] sucessfully
+ INFO [pool-1-thread-1] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter Mobile Number']]
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] text field
+ INFO [pool-1-thread-1] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter Mobile Number']] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-1] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter Mobile Number']] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter Mobile Number']] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+ INFO [pool-1-thread-1] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter Mobile Number']] text field
+ INFO [pool-1-thread-1] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //input[@placeholder='Enter Mobile Number']] sucessfully
+ INFO [pool-1-thread-1] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']]
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
  INFO [pool-1-thread-2] (LoginTest.java:26)- Logged in user
 In logout method
- INFO [pool-1-thread-1] (PageActions.java:117)- clickable
- INFO [pool-1-thread-1] (PageActions.java:117)- clickable
+ INFO [pool-1-thread-1] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-1] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] found on the page
+ INFO [pool-1-thread-1] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] clicked successfully
+ INFO [pool-1-thread-1] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] text field
+ INFO [pool-1-thread-2] (PageActions.java:173)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //div[@id='toast-container']] to be invisible
+ INFO [pool-1-thread-1] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] sucessfully
+ INFO [pool-1-thread-1] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']]
+ INFO [pool-1-thread-1] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-1] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] found on the page
+ INFO [pool-1-thread-1] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] clicked successfully
+ INFO [pool-1-thread-1] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] text field
+ INFO [pool-1-thread-1] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] sucessfully
+ INFO [pool-1-thread-1] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //button[contains(text(),'Register')]]
+ INFO [pool-1-thread-1] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //button[contains(text(),'Register')]] to be visible
+ INFO [pool-1-thread-1] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-1] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //button[contains(text(),'Register')]] found on the page
+ INFO [pool-1-thread-1] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (66c84899269bf0de2c45f9e2fb427f85)] -&gt; xpath: //button[contains(text(),'Register')]] clicked successfully
  INFO [pool-1-thread-1] (RegisterTest.java:28)- Registereda user
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
- INFO [pool-1-thread-2] (PageActions.java:117)- clickable
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] text field
+ INFO [pool-1-thread-2] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] text field
+ INFO [pool-1-thread-2] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:173)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //div[@id='toast-container']] to be invisible
+ INFO [pool-1-thread-2] (PageActions.java:175)- element is invisible now
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:144)- Element field [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] value attribute recived sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:146)- Element field [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] is cleared sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] text field
+ INFO [pool-1-thread-2] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:144)- Element field [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] value attribute recived sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:146)- Element field [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] is cleared sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:67)- Cleared the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] text field
+ INFO [pool-1-thread-2] (PageActions.java:69)- Send data to [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+ INFO [pool-1-thread-2] (PageActions.java:158)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]]
+ INFO [pool-1-thread-2] (PageActions.java:160)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+ INFO [pool-1-thread-2] (PageActions.java:162)- element is clickable
+ INFO [pool-1-thread-2] (PageActions.java:54)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+ INFO [pool-1-thread-2] (PageActions.java:57)- Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+ INFO [pool-1-thread-2] (PageActions.java:173)- Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -&gt; xpath: //div[@id='toast-container']] to be invisible
+ INFO [pool-1-thread-2] (PageActions.java:175)- element is invisible now
 </pre>
 </span>
 </div>
@@ -135,7 +241,7 @@ In logout method
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.0</a> at Jan 27, 2020 4:46:37 AM</p>
+<a href="http://www.gradle.org">Gradle 6.0</a> at Feb 9, 2020 7:35:07 PM</p>
 </div>
 </div>
 </body>

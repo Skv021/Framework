@@ -24,7 +24,6 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.testng/testng
 	compile group: 'org.testng', name: 'testng', version: '6.8.21'
 
-
 	compile group: 'log4j', name: 'log4j', version: '1.2.17'
 
 	compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
