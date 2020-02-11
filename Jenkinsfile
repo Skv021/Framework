@@ -11,7 +11,7 @@ pipeline {
     
       stage('Compile') {
          steps{
-        sh 'gradle project/build.gradle classes'
+        bat 'gradle project/build.gradle classes'
          }
        
 
