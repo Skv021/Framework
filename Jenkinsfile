@@ -8,7 +8,7 @@ pipeline {
          git 'https://github.com/Skv021/Framework.git'
         }
       }
-     build {
+    
       stage('Compile') {
          steps{
         gradle {
@@ -17,7 +17,7 @@ pipeline {
         }
          }
        
-}
+
 }
    } 
 }
