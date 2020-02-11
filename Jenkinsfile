@@ -1,3 +1,4 @@
+def jobName = 'UNKNOWN'
 pipeline {
    agent any
    stages{
@@ -20,8 +21,8 @@ pipeline {
          steps{
        
           
-          success{
-      def jobName = env.JOB_NAME + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
+          script{
+       jobName = env.JOB_NAME + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
 currentBuild.displayName = "$jobName"
           
              echo 'job name is $jobName'
