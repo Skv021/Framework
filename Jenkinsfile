@@ -1,8 +1,10 @@
 pipeline {
-   node ('worker_node1') {
+   stages{
+  
      stage('Source') {
          // Get some code from our Git repository
          git 'https://github.com/Skv021/Framework.git'
       }
 }
+   
 }
