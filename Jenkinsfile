@@ -8,6 +8,12 @@ pipeline {
          git 'https://github.com/Skv021/Framework.git'
         }
       }
+      stage('Compile') {
+        gradle {
+            tasks: 'clean'
+            tasks: 'test'
+        }
+   }
 }
    
 }
