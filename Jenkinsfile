@@ -22,10 +22,10 @@ pipeline {
        
           
           script{
-      bat( jobName = env.JOB_NAME + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC')))
-      bat(currentBuild.displayName = "$jobName")
+       jobName = env.JOB_NAME + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
+      currentBuild.displayName = "$jobName"
           
-             echo 'job name is $jobName'
+             echo "$jobName"
           }
    
       }
