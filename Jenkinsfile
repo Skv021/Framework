@@ -29,8 +29,9 @@ pipeline {
 }
       stage('Post'){
          steps{
-            script {    
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles: bat 'dir /a:d /b extentReports', reportName: 'index.html', reportTitles: ''])
+            script {  
+               def reportLoc= bat 'dir /a:d /b extentReports'
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles:"$reportLoc" , reportName: 'index.html', reportTitles: ''])
       }
       }
    }
