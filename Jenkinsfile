@@ -30,7 +30,7 @@ pipeline {
       stage('Post'){
          steps{
             script {
-                bat 'ls extentReports > listFiles.txt'
+                bat 'dir /a:d /b extentReports > listFiles.txt'
                def files = readFile("listFiles.txt").split("\\r?\\n");
                 sh 'rm -f listFiles.txt'
 
