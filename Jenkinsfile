@@ -29,8 +29,15 @@ pipeline {
 }
       stage('Post'){
          steps{
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "Myreports", reportFiles: 'html-file_name', reportName: 'index.html', reportTitles: ''])
+            script {
+                bat 'ls extentReports > listFiles.txt'
+               def files = readFile("listFiles.txt").split("\\r?\\n");
+                sh 'rm -f listFiles.txt'
+
+               
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles: files[0], reportName: 'index.html', reportTitles: ''])
       }
       }
+   }
    }
 }
