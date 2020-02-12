@@ -29,13 +29,8 @@ pipeline {
 }
       stage('Post'){
          steps{
-            script {
-                bat 'dir /a:d /b extentReports > listFiles.txt'
-               def files = readFile("listFiles.txt").split("\\r?\\n");
-                sh 'rm -f listFiles.txt'
-
-               
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles: files[0], reportName: 'index.html', reportTitles: ''])
+            script {    
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles: bat 'dir /a:d /b extentReports', reportName: 'index.html', reportTitles: ''])
       }
       }
    }
