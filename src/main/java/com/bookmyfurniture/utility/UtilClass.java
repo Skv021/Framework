@@ -64,4 +64,22 @@ public class UtilClass {
 	public static String generateRandomNumber(int size) {
 		return RandomStringUtils.randomNumeric(size);
 	}
+	public static void deleteReports() throws IOException {
+		try {
+		File sourceFolderName = new File(System.getProperty("user.dir") + "\\extentReports\\");		
+		File destinationFolderName = new File(System.getProperty("user.dir") + "\\All_reports\\");
+		if(!destinationFolderName.exists()) {
+			destinationFolderName.mkdir();
+		}
+		FileUtils.copyDirectory(sourceFolderName, destinationFolderName);
+ 
+		File folder = new File(System.getProperty("user.dir") + "\\extentReports\\");
+		if (folder.exists()) {
+			FileUtils.cleanDirectory(folder);
+		}
+		}
+		catch(Exception e) {
+			System.out.println((e.getMessage()));
+		}
+	}
 }

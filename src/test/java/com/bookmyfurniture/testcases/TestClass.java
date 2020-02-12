@@ -34,8 +34,9 @@ public class TestClass {
 	Logger logger;
 
 	@BeforeSuite
-	public void setExtentReport() {
+	public void setExtentReport() throws IOException {
 		String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
+		UtilClass.deleteReports();
 		String filePath = System.getProperty("user.dir") + "/extentReports/" + timeStamp + "/skvReport.html";
 		extent = new ExtentReports(filePath, true);
 		extent.addSystemInfo("Host name", "sweet").addSystemInfo("Environment", "QA").addSystemInfo("Host name",
