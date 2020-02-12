@@ -22,12 +22,16 @@ pipeline {
        
           
           script{
-       jobName = env.JOB_NAME + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
-      currentBuild.displayName = "$jobName"
-          
-             echo "$jobName"
+       node {
+  wrap([$class: 'BuildUser']) {
+    def user = env.BUILD_USER
+    echo "user name is $user"
+    def jobName = user + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
+    currentBuild.displayName = "$jobName"
+  }
+}
           }
-   
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "Framework//extentReports//", reportFiles: 'html-file_name', reportName: 'TestReport.html', reportTitles: ''])
       }
       }
    }
