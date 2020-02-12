@@ -31,6 +31,7 @@ pipeline {
          steps{
             script {  
                def reportLoc= bat 'dir /a:d /b extentReports'
+               echo "$reportLoc"
    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles:"$reportLoc" , reportName: 'TestReport.html', reportTitles: ''])
       }
       }
