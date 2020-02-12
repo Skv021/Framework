@@ -31,7 +31,7 @@ pipeline {
   }
 }
           }
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "BookMyFurniture//extentReports//", reportFiles: 'html-file_name', reportName: 'TestReport.html', reportTitles: ''])
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles: 'html-file_name', reportName: 'TestReport.html', reportTitles: ''])
       }
       }
    }
