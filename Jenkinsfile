@@ -26,7 +26,7 @@ pipeline {
   wrap([$class: 'BuildUser']) {
     def user = env.BUILD_USER
     echo "user name is $user"
-    def jobName = user + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
+     jobName = user + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
     currentBuild.displayName = "$jobName"
   }
 }
