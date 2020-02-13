@@ -30,8 +30,8 @@ pipeline {
       stage('Post'){
          steps{
             script {  
-               def rep= bat 'dir /a:d /b extentReports'
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles:$rep , reportName: 'TestReport.html', reportTitles: ''])
+              
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles: bat 'dir /a:d /b extentReports' , reportName: 'TestReport.html', reportTitles: ''])
       }
       }
    }
