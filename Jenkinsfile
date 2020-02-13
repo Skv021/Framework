@@ -34,11 +34,10 @@ pipeline {
          steps{
             script {  
              
-               
-             def x = bat(returnStdout: true,script: "${dir /a:d /b extentReports}"
-)
+               def cmd = "dir /a:d /b extentReports"
+             def x = bat(returnStdout: true,script: "${cmd}")
 
-echo x
+echo "x=====$x"
    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports//x", reportFiles:"TestReport.html"  , reportName: 'MyReports', reportTitles: ''])
       }
       }
