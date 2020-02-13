@@ -33,9 +33,9 @@ pipeline {
       stage('Post'){
          steps{
             script {  
-               def cmd =''
-               cmd.append("dir /a:d /b extentReports")
-             def x = bat(returnStdout: true,script: "${cmd.toString()}"
+               def cmd ="dir /a:d /b extentReports"
+               
+             def x = bat(returnStdout: true,script: "${cmd}"
 )
 
 echo x
