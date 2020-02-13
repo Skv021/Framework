@@ -33,13 +33,13 @@ pipeline {
       stage('Post'){
          steps{
             script {  
-               def cmd ="dir /a:d /b extentReports"
+             
                
-             def x = bat(returnStdout: true,script: "${cmd}"
+             def x = bat(returnStdout: true,script: "${dir /a:d /b extentReports}"
 )
 
 echo x
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports//dir /a:d /b extentReports", reportFiles:"TestReport.html"  , reportName: 'MyReports', reportTitles: ''])
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports//x", reportFiles:"TestReport.html"  , reportName: 'MyReports', reportTitles: ''])
       }
       }
    }
