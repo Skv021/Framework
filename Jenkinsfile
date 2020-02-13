@@ -3,7 +3,7 @@ def jobName = 'UNKNOWN'
 pipeline {
    
    agent any
-   import groovy.io.FileType
+   
    stages{
   
      stage('Source') {
