@@ -5,7 +5,20 @@
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			
+			<class name="com.bookmyfurniture.testcases.RegisterTest">
+				<methods>
+					<include name="registerFurniture" />
+					<exclude name="faiTest" />
+				</methods>
+			</class>
+			<class name="com.bookmyfurniture.testcases.LoginTest">
+				<methods>
+					<include name="Login" />
+					<include name="Logout" />
+					<include name="LoginWithWrongPassword" />
+					<include name="LoginWithoutEmailId" />
+				</methods>
+			</class>
 			<class name="com.bookmyfurniture.testcases.LoginTest">
 				<methods>
 					<include name="Login" />
