@@ -37,7 +37,8 @@ pipeline {
                def cmd = "dir /a:d /b extentReports"
              def x = bat(returnStdout: true,script: "${cmd}")
             x=x.split( 'extentReports' )[1]
-echo "x=====$x"
+               x=x.trim()
+echo "x=====$x========"
    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports//$x", reportFiles:"TestReport.html"  , reportName: 'MyReports', reportTitles: ''])
       }
       }
