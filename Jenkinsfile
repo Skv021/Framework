@@ -31,20 +31,13 @@ pipeline {
       stage('Post'){
          steps{
             script {  
-             import groovy.io.FileType
+               def cmd = new StringBuilder()
+               cmd.append("dir /a:d /b extentReports")
+             def x = bat(returnStdout: true,script: "${cmd.toString()}"
+)
 
-   def list = []
-
-def dir = new File("extentReports")
-dir.eachFileRecurse (FileType.FILES) { 
-   file ->
-  list << file
-  
-}
-               list.each {
-  println it.path
-}
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles:"$y"  , reportName: 'TestReport.html', reportTitles: ''])
+echo x
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles:"$x"  , reportName: 'TestReport.html', reportTitles: ''])
       }
       }
    }
