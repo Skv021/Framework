@@ -59,7 +59,7 @@ public class TestClass {
 		} else if (browserName.equalsIgnoreCase("ie")) {
 
 			System.setProperty(ReadData.getDataValue("IE_WEB_DRIVER", "config"),
-					ReadData.getDataValue("IE_DRIVER_PATH", "config"));
+					(new File(System.getProperty("user.dir")+"/lib/IEDriverServer.exe").getAbsolutePath()));
 			driver = new InternetExplorerDriver();
 		}
 		driver.get(websiteUrl);

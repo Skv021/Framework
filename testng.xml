@@ -28,8 +28,8 @@
 		</classes>
 	</test> <!-- Test -->
 
-	<!-- <test name="IeTest"> <parameter name="browser" value="ie" /> <classes> 
+	 <test name="IeTest"> <parameter name="browser" value="ie" /> <classes> 
 		<class name="com.mindtree.mercury.testcases.RegisterTest"> <methods> <include 
 		name="Register" /> <exclude name="faiTest" /> </methods> </class> </classes> 
-		</test> -->
+		</test>
 </suite> <!-- Suite -->
