@@ -1,7 +1,9 @@
 def jobName = 'UNKNOWN'
 
 pipeline {
+   
    agent any
+   import groovy.io.FileType
    stages{
   
      stage('Source') {
@@ -31,7 +33,7 @@ pipeline {
       stage('Post'){
          steps{
             script {  
-               def cmd = new StringBuilder()
+               def cmd =''
                cmd.append("dir /a:d /b extentReports")
              def x = bat(returnStdout: true,script: "${cmd.toString()}"
 )
