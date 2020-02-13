@@ -31,8 +31,19 @@ pipeline {
       stage('Post'){
          steps{
             script {  
-             set x= bat 'dir /a:d /b extentReports'
-               def y =x
+             import groovy.io.FileType
+
+   def list = []
+
+def dir = new File("extentReports")
+dir.eachFileRecurse (FileType.FILES) { 
+   file ->
+  list << file
+  
+}
+               list.each {
+  println it.path
+}
    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles:"$y"  , reportName: 'TestReport.html', reportTitles: ''])
       }
       }
