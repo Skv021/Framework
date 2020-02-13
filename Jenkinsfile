@@ -1,5 +1,5 @@
 def jobName = 'UNKNOWN'
-def x='xxx'
+
 pipeline {
    agent any
    stages{
