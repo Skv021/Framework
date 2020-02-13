@@ -1,4 +1,5 @@
 def jobName = 'UNKNOWN'
+def x='xxx'
 pipeline {
    agent any
    stages{
@@ -30,8 +31,8 @@ pipeline {
       stage('Post'){
          steps{
             script {  
-              
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles: bat 'dir /a:d /b extentReports' , reportName: 'TestReport.html', reportTitles: ''])
+              bat 'dir /a:d /b extentReports' > x
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles:x  , reportName: 'TestReport.html', reportTitles: ''])
       }
       }
    }
