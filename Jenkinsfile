@@ -39,7 +39,7 @@ pipeline {
 )
 
 echo x
-   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports", reportFiles:"$x"  , reportName: 'TestReport.html', reportTitles: ''])
+   publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports//$x", reportFiles:"TestReport.html"  , reportName: 'MyReports', reportTitles: ''])
       }
       }
    }
