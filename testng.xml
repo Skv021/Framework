@@ -28,7 +28,7 @@
 		</classes>
 	</test> <!-- Test -->
 
-	 <test name="IeTest"> <parameter name="browser" value="ie" /> 
+	 <test name="FirefoxTest"> <parameter name="browser" value="firefox" /> 
 	 <classes> 
 	
 			<class name="com.bookmyfurniture.testcases.RegisterTest">

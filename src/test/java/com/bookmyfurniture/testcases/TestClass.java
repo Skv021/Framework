@@ -56,10 +56,10 @@ public class TestClass {
 			System.setProperty("webdriver.chrome.driver",
 					new File(System.getProperty("user.dir"), "/lib/chromedriver.exe").getAbsolutePath());
 			driver = new ChromeDriver();
-		} else if (browserName.equalsIgnoreCase("ie")) {
+		} else if (browserName.equalsIgnoreCase("firefox")) {
 
-			System.setProperty(ReadData.getDataValue("IE_WEB_DRIVER", "config"),
-					(new File(System.getProperty("user.dir")+"/lib/IEDriverServer.exe").getAbsolutePath()));
+			System.setProperty("webdriver.gecko.driver",
+					(new File(System.getProperty("user.dir")+"/lib/geckodriver.exe").getAbsolutePath()));
 			driver = new InternetExplorerDriver();
 		}
 		driver.get(websiteUrl);
