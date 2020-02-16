@@ -12,6 +12,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import groovy.transform.Undefined.EXCEPTION;
+
 public class UtilClass {
 
 	Logger logger;
@@ -45,7 +47,8 @@ public class UtilClass {
 
 	}
 
-	public String addScreenshot(WebDriver driver) throws IOException, InterruptedException {
+	public String addScreenshot(WebDriver driver){
+		try {
 		TakesScreenshot takeScreenshot = ((TakesScreenshot) driver);
 		File srceenShotFile = takeScreenshot.getScreenshotAs(OutputType.FILE);
 		String fileName = System.getProperty("user.dir") + "\\target\\" + "\\Screenshots\\" + generateRandomString(10)
@@ -55,6 +58,11 @@ public class UtilClass {
 
 		Thread.sleep(1000);
 		return fileName;
+		}
+		catch(Exception e) {
+			logger.error("Exception in addScreenshot methos"+e.getMessage());
+		}
+		return null;
 	}
 	
 	public static String generateEmailId() {

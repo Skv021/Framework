@@ -75,7 +75,8 @@ public class TestClass {
 	}
 
 	@AfterMethod
-	public void getResult(ITestResult result) throws IOException, InterruptedException {
+	public void getResult(ITestResult result){
+		
 		UtilClass util = new UtilClass();
 		if (result.getStatus() == ITestResult.FAILURE) {
 			String path = util.addScreenshot(driver);
@@ -92,6 +93,7 @@ public class TestClass {
 			test.log(LogStatus.PASS, "Test Case Passed sucessfully " + result.getName());
 		}
 		extent.endTest(test);
+
 	}
 
 	@AfterSuite
