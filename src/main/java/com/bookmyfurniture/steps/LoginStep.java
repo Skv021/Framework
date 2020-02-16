@@ -1,7 +1,6 @@
 package com.bookmyfurniture.steps;
 
 
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.InvalidSelectorException;
@@ -23,10 +22,6 @@ public class LoginStep {
 		loginPage=new LoginPage(driver);
 		action =new PageActions(driver);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-	}
-
-	public void loginToApp() throws IOException, InterruptedException {
-		
 	}
 
 	public void clickOnHomeLink() {

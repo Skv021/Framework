@@ -12,8 +12,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import groovy.transform.Undefined.EXCEPTION;
-
 public class UtilClass {
 
 	Logger logger;
@@ -72,7 +70,7 @@ public class UtilClass {
 	public static String generateRandomNumber(int size) {
 		return RandomStringUtils.randomNumeric(size);
 	}
-	public static void deleteReports() throws IOException {
+	public static void deleteReports() {
 		try {
 		File sourceFolderName = new File(System.getProperty("user.dir") + "\\extentReports\\");		
 		File destinationFolderName = new File(System.getProperty("user.dir") + "\\All_reports\\");
