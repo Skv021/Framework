@@ -80,9 +80,10 @@ public class TestClass {
 		UtilClass util = new UtilClass();
 		if (result.getStatus() == ITestResult.FAILURE) {
 			String path = util.addScreenshot(driver);
-
-			test.log(LogStatus.FAIL, "Test Case Failed is " + result.getThrowable());
-			test.log(LogStatus.FAIL, "Failed step is: " + test.addScreenCapture(path));
+			if(path!=null) {
+				test.log(LogStatus.FAIL, "Test Case Failed is " + result.getThrowable());
+				test.log(LogStatus.FAIL, "Failed step is: " + test.addScreenCapture(path));
+			}
 
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			util.addScreenshot(driver);
