@@ -65,19 +65,9 @@ public class TestClass {
 		driver.get(websiteUrl);
 		driver.manage().window().maximize();
 		// Assert.assertEquals(driver.getCurrentUrl(), websiteUrl);
-<<<<<<< HEAD
 
 		PropertyConfigurator.configure("log4j.properties");
 		logger = Logger.getLogger(this.getClass());
-
-=======
-		PropertyConfigurator.configure("log4j.properties");
-		logger = Logger.getLogger(this.getClass());
-
-		
->>>>>>> df2b2f489a71f5f40eeae128234ded82f6341b06
-
-		// extent-report
 
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		return driver;
