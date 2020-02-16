@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="classes" thread-count="2">
+<suite name="Suite" parallel="tests" thread-count="2">
 	<!--<suite name="Suite"> -->
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome" />
@@ -28,7 +28,7 @@
 		</classes>
 	</test> <!-- Test -->
 
-	 <!-- <test name="FirefoxTest"> <parameter name="browser" value="firefox" /> 
+	 <test name="FirefoxTest"> <parameter name="browser" value="firefox" /> 
 	 <classes> 
 	
 			<class name="com.bookmyfurniture.testcases.RegisterTest">
@@ -53,5 +53,5 @@
 			</class>
 
 		 </classes> 
-		</test> -->
+		</test>
 </suite> <!-- Suite -->
