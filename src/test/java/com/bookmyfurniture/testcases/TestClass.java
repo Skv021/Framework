@@ -34,14 +34,20 @@ public class TestClass {
 	Logger logger;
 
 	@BeforeSuite
-	public void setExtentReport() throws IOException {
-		String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
-		UtilClass.deleteReports();
-		String filePath = System.getProperty("user.dir") + "/extentReports/" + timeStamp + "/TestReport.html";
-		extent = new ExtentReports(filePath, true);
-		extent.addSystemInfo("Host name", "sweet").addSystemInfo("Environment", "QA").addSystemInfo("Host name",
-				"Sweta Verma");
-		extent.loadConfig(new File(System.getProperty("user.dir") + "/extent-config.xml"));
+	public void setExtentReport(){
+		try{
+			String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
+			UtilClass.deleteReports();
+			String filePath = System.getProperty("user.dir") + "/extentReports/" + timeStamp + "/TestReport.html";
+			extent = new ExtentReports(filePath, true);
+			extent.addSystemInfo("Host name", "sweet").addSystemInfo("Environment", "QA").addSystemInfo("Host name",
+					"Sweta Verma");
+			extent.loadConfig(new File(System.getProperty("user.dir") + "/extent-config.xml"));
+		}
+		catch(Exception e)
+		{
+			logger.error("Exception in setExtentReport method :"+e.getMessage());
+		}
 	}
 
 	@Parameters("browser")
