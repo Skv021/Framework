@@ -247,3 +247,456 @@
 2020-02-09 19:34:55,520 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
 2020-02-09 19:34:55,542 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (4e488d10a0ff94cdd4e966286cf14c36)] -> xpath: //div[@id='toast-container']] to be invisible
 2020-02-09 19:35:01,213 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:24:14,402 - com.bookmyfurniture.utility.PageActions -ERROR - Current Page URL http://okmry52647dns.eastus.cloudapp.azure.com:9090/home is not matching with expected http://okmry52647dns.eastus.cloudapp.azure.com:9090/user_entry/login url
+2020-02-16 15:24:14,467 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:24:14,471 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:24:14,709 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:24:14,711 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:24:14,785 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:14,785 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:14,796 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:24:14,796 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:24:15,078 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:24:15,082 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:24:15,103 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:24:15,111 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]]
+2020-02-16 15:24:15,154 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:24:15,160 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] to be visible
+2020-02-16 15:24:15,201 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:15,205 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:15,211 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:24:15,213 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] found on the page
+2020-02-16 15:24:15,415 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:24:15,426 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] clicked successfully
+2020-02-16 15:24:15,473 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:24:15,498 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter User Name']]
+2020-02-16 15:24:15,536 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter User Name']] to be visible
+2020-02-16 15:24:15,577 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:15,587 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter User Name']] found on the page
+2020-02-16 15:24:15,763 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter User Name']] clicked successfully
+2020-02-16 15:24:15,798 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter User Name']] text field
+2020-02-16 15:24:15,821 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:24:15,848 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:24:15,895 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:24:15,947 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:15,956 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:24:15,959 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter User Name']] sucessfully
+2020-02-16 15:24:15,984 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter Mobile Number']]
+2020-02-16 15:24:16,019 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter Mobile Number']] to be visible
+2020-02-16 15:24:16,061 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:16,075 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter Mobile Number']] found on the page
+2020-02-16 15:24:16,090 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:24:16,113 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:24:16,183 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:24:16,207 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:24:16,212 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter Mobile Number']] clicked successfully
+2020-02-16 15:24:16,237 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter Mobile Number']] text field
+2020-02-16 15:24:16,240 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:24:16,284 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:16,293 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:24:16,314 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //input[@placeholder='Enter Mobile Number']] sucessfully
+2020-02-16 15:24:16,337 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']]
+2020-02-16 15:24:16,385 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] to be visible
+2020-02-16 15:24:16,428 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:16,433 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:24:16,433 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-02-16 15:24:16,438 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] found on the page
+2020-02-16 15:24:16,580 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] clicked successfully
+2020-02-16 15:24:16,605 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] text field
+2020-02-16 15:24:16,732 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:24:16,737 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] sucessfully
+2020-02-16 15:24:16,765 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']]
+2020-02-16 15:24:16,802 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] to be visible
+2020-02-16 15:24:16,848 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:16,857 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] found on the page
+2020-02-16 15:24:16,993 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] clicked successfully
+2020-02-16 15:24:17,021 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] text field
+2020-02-16 15:24:17,104 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] sucessfully
+2020-02-16 15:24:17,127 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //button[contains(text(),'Register')]]
+2020-02-16 15:24:17,171 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //button[contains(text(),'Register')]] to be visible
+2020-02-16 15:24:22,409 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:24:22,434 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Hi,')]]
+2020-02-16 15:24:22,470 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Hi,')]] to be visible
+2020-02-16 15:24:22,511 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:22,520 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Hi,')]] found on the page
+2020-02-16 15:24:22,675 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Hi,')]] clicked successfully
+2020-02-16 15:24:22,698 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]]
+2020-02-16 15:24:22,734 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]] to be visible
+2020-02-16 15:24:22,772 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:22,783 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]] found on the page
+2020-02-16 15:24:28,051 - com.bookmyfurniture.utility.PageActions -INFO - Element Proxy element for: DefaultElementLocator 'By.xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]' clicked successfully
+2020-02-16 15:24:28,074 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:24:28,617 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:24:28,641 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:24:28,680 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:24:28,720 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:28,730 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:24:28,914 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:24:28,936 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:24:28,979 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:24:29,016 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:29,025 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:24:29,181 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:24:29,208 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:24:29,335 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:24:29,358 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:24:29,393 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:24:29,431 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:29,442 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:24:29,584 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:24:29,608 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:24:29,718 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:24:29,746 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:24:29,784 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:24:29,822 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:29,832 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:24:29,976 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:24:29,996 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:24:30,015 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:24:30,040 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:24:30,069 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:24:30,130 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:30,139 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:24:30,303 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:24:30,318 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:24:30,348 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:24:30,384 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:30,392 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:24:30,542 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:24:30,567 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] value attribute recived sucessfully
+2020-02-16 15:24:30,720 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] is cleared sucessfully
+2020-02-16 15:24:30,729 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:24:30,854 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:24:30,879 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:24:30,911 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:24:30,949 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:30,957 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:24:31,095 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:24:31,118 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] value attribute recived sucessfully
+2020-02-16 15:24:31,171 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] is cleared sucessfully
+2020-02-16 15:24:31,180 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:24:31,262 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:24:31,282 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:24:31,308 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:24:31,343 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:24:31,350 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:24:31,486 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:24:31,509 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (708d3111525de0a8bf06c526c7b9be36)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:24:37,175 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:24:37,265 - com.bookmyfurniture.utility.PageActions -ERROR - Exception in waitForAnElementToBeVisible method- Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //button[contains(text(),'Register')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c77c152cf5fad651a1c74182953259c6
+2020-02-16 15:24:37,276 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (c77c152cf5fad651a1c74182953259c6)] -> xpath: //button[contains(text(),'Register')]] found on the page
+2020-02-16 15:24:37,299 - com.bookmyfurniture.utility.PageActions -ERROR - Exception in Click method- move target out of bounds
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c77c152cf5fad651a1c74182953259c6
+2020-02-16 15:24:37,300 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-02-16 15:25:36,158 - com.bookmyfurniture.utility.PageActions -ERROR - Current Page URL http://okmry52647dns.eastus.cloudapp.azure.com:9090/home is not matching with expected http://okmry52647dns.eastus.cloudapp.azure.com:9090/user_entry/login url
+2020-02-16 15:25:36,180 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:25:36,192 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:25:36,237 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:25:36,237 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:25:36,290 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:36,290 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:36,299 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:25:36,301 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:25:36,548 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:25:36,550 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:25:36,574 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]]
+2020-02-16 15:25:36,580 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:25:36,622 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] to be visible
+2020-02-16 15:25:36,631 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:25:36,670 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:36,682 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:36,688 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] found on the page
+2020-02-16 15:25:36,692 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:25:36,832 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] clicked successfully
+2020-02-16 15:25:36,858 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter User Name']]
+2020-02-16 15:25:36,870 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:25:36,900 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:25:36,904 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter User Name']] to be visible
+2020-02-16 15:25:36,950 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:36,964 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter User Name']] found on the page
+2020-02-16 15:25:37,033 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:25:37,060 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:25:37,101 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:25:37,111 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter User Name']] clicked successfully
+2020-02-16 15:25:37,148 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter User Name']] text field
+2020-02-16 15:25:37,150 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:37,158 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:25:37,268 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter User Name']] sucessfully
+2020-02-16 15:25:37,290 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter Mobile Number']]
+2020-02-16 15:25:37,332 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter Mobile Number']] to be visible
+2020-02-16 15:25:37,332 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:25:37,362 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:25:37,373 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:37,382 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter Mobile Number']] found on the page
+2020-02-16 15:25:37,442 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:25:37,465 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:25:37,500 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:25:37,522 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter Mobile Number']] clicked successfully
+2020-02-16 15:25:37,547 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:37,550 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter Mobile Number']] text field
+2020-02-16 15:25:37,556 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:25:37,643 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //input[@placeholder='Enter Mobile Number']] sucessfully
+2020-02-16 15:25:37,664 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']]
+2020-02-16 15:25:37,703 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] to be visible
+2020-02-16 15:25:37,712 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:25:37,712 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-02-16 15:25:37,748 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:37,758 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] found on the page
+2020-02-16 15:25:37,899 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] clicked successfully
+2020-02-16 15:25:37,926 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] text field
+2020-02-16 15:25:38,001 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:25:38,068 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] sucessfully
+2020-02-16 15:25:38,089 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']]
+2020-02-16 15:25:38,123 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] to be visible
+2020-02-16 15:25:38,161 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:38,171 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] found on the page
+2020-02-16 15:25:38,307 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] clicked successfully
+2020-02-16 15:25:38,334 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] text field
+2020-02-16 15:25:38,412 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] sucessfully
+2020-02-16 15:25:38,433 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //button[contains(text(),'Register')]]
+2020-02-16 15:25:38,476 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //button[contains(text(),'Register')]] to be visible
+2020-02-16 15:25:43,671 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:25:43,701 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Hi,')]]
+2020-02-16 15:25:43,737 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Hi,')]] to be visible
+2020-02-16 15:25:43,779 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:43,787 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Hi,')]] found on the page
+2020-02-16 15:25:43,951 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Hi,')]] clicked successfully
+2020-02-16 15:25:43,979 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]]
+2020-02-16 15:25:44,015 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]] to be visible
+2020-02-16 15:25:44,056 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:44,065 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]] found on the page
+2020-02-16 15:25:49,245 - com.bookmyfurniture.utility.PageActions -INFO - Element Proxy element for: DefaultElementLocator 'By.xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]' clicked successfully
+2020-02-16 15:25:49,262 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:25:49,799 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:25:49,925 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:25:49,960 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:25:50,043 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:50,075 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:25:50,257 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:25:50,273 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:25:50,304 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:25:50,349 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:50,362 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:25:50,531 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:25:50,556 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:25:50,657 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:25:50,674 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:25:50,705 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:25:50,744 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:50,754 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:25:50,902 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:25:50,933 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:25:51,034 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:25:51,053 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:25:51,085 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:25:51,126 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:51,133 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:25:51,302 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:25:51,324 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:25:51,345 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:25:51,364 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:25:51,397 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:25:51,446 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:51,454 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:25:51,609 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:25:51,628 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:25:51,661 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:25:51,698 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:51,705 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:25:51,855 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:25:51,885 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] value attribute recived sucessfully
+2020-02-16 15:25:51,938 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] is cleared sucessfully
+2020-02-16 15:25:51,948 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:25:52,084 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:25:52,108 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:25:52,136 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:25:52,171 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:52,180 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:25:52,337 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:25:52,360 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] value attribute recived sucessfully
+2020-02-16 15:25:52,432 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] is cleared sucessfully
+2020-02-16 15:25:52,441 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:25:52,538 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:25:52,554 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:25:52,584 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:25:52,616 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:25:52,624 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:25:52,761 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:25:52,780 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f46fa3057bf06a23b25521255c9cce42)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:25:58,469 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:25:59,001 - com.bookmyfurniture.utility.PageActions -ERROR - Exception in waitForAnElementToBeVisible method- Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //button[contains(text(),'Register')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53aa395dfb2f43de48d12c0fcf844b5f
+2020-02-16 15:25:59,010 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (53aa395dfb2f43de48d12c0fcf844b5f)] -> xpath: //button[contains(text(),'Register')]] found on the page
+2020-02-16 15:25:59,030 - com.bookmyfurniture.utility.PageActions -ERROR - Exception in Click method- move target out of bounds
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 53aa395dfb2f43de48d12c0fcf844b5f
+2020-02-16 15:25:59,031 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user
+2020-02-16 15:28:09,039 - com.bookmyfurniture.utility.PageActions -ERROR - Current Page URL http://okmry52647dns.eastus.cloudapp.azure.com:9090/home is not matching with expected http://okmry52647dns.eastus.cloudapp.azure.com:9090/user_entry/login url
+2020-02-16 15:28:09,062 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:28:09,074 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:28:09,126 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:28:09,126 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:28:09,186 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:09,186 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:09,195 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:28:09,195 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:28:09,469 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:28:09,475 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:28:09,499 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:28:09,499 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]]
+2020-02-16 15:28:09,544 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] to be visible
+2020-02-16 15:28:09,545 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:28:09,586 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:09,586 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:09,597 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] found on the page
+2020-02-16 15:28:09,597 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:28:09,748 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:28:09,752 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] clicked successfully
+2020-02-16 15:28:09,779 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter User Name']]
+2020-02-16 15:28:09,779 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:28:09,825 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter User Name']] to be visible
+2020-02-16 15:28:09,870 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:09,882 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter User Name']] found on the page
+2020-02-16 15:28:09,913 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:28:09,944 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:28:09,985 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:28:10,025 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:10,034 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:28:10,061 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter User Name']] clicked successfully
+2020-02-16 15:28:10,099 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter User Name']] text field
+2020-02-16 15:28:10,180 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:28:10,199 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter User Name']] sucessfully
+2020-02-16 15:28:10,206 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:28:10,221 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter Mobile Number']]
+2020-02-16 15:28:10,267 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter Mobile Number']] to be visible
+2020-02-16 15:28:10,317 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:10,319 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:28:10,327 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter Mobile Number']] found on the page
+2020-02-16 15:28:10,345 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:28:10,394 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:28:10,444 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:10,453 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:28:10,476 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter Mobile Number']] clicked successfully
+2020-02-16 15:28:10,504 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter Mobile Number']] text field
+2020-02-16 15:28:10,599 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //input[@placeholder='Enter Mobile Number']] sucessfully
+2020-02-16 15:28:10,600 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:28:10,601 - com.bookmyfurniture.testcases.LoginTest -INFO - Logged in user
+2020-02-16 15:28:10,628 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']]
+2020-02-16 15:28:10,669 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] to be visible
+2020-02-16 15:28:10,715 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:10,733 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] found on the page
+2020-02-16 15:28:10,882 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] clicked successfully
+2020-02-16 15:28:10,895 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:28:10,913 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] text field
+2020-02-16 15:28:11,033 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] sucessfully
+2020-02-16 15:28:11,057 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']]
+2020-02-16 15:28:11,099 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] to be visible
+2020-02-16 15:28:11,139 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:11,152 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] found on the page
+2020-02-16 15:28:11,291 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] clicked successfully
+2020-02-16 15:28:11,320 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] text field
+2020-02-16 15:28:11,410 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] sucessfully
+2020-02-16 15:28:11,442 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //button[contains(text(),'Register')]]
+2020-02-16 15:28:11,488 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //button[contains(text(),'Register')]] to be visible
+2020-02-16 15:28:16,589 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:28:16,613 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Hi,')]]
+2020-02-16 15:28:16,656 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Hi,')]] to be visible
+2020-02-16 15:28:16,694 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:16,701 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Hi,')]] found on the page
+2020-02-16 15:28:16,859 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Hi,')]] clicked successfully
+2020-02-16 15:28:16,882 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]]
+2020-02-16 15:28:16,923 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]] to be visible
+2020-02-16 15:28:16,969 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:16,982 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]] found on the page
+2020-02-16 15:28:22,194 - com.bookmyfurniture.utility.PageActions -INFO - Element Proxy element for: DefaultElementLocator 'By.xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]' clicked successfully
+2020-02-16 15:28:22,213 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:28:22,754 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:28:22,780 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:28:22,818 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:28:22,865 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:22,874 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:28:23,060 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:28:23,086 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:28:23,145 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:28:23,190 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:23,199 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:28:23,338 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:28:23,365 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:28:23,467 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:28:23,491 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:28:23,525 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:28:23,592 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:23,603 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:28:23,771 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:28:23,799 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:28:23,904 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:28:23,924 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:28:23,959 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:28:23,994 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:24,003 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:28:24,141 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:28:24,160 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:28:24,179 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:28:24,197 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]]
+2020-02-16 15:28:24,224 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+2020-02-16 15:28:24,263 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:24,277 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+2020-02-16 15:28:24,418 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+2020-02-16 15:28:24,437 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+2020-02-16 15:28:24,464 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+2020-02-16 15:28:24,499 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:24,507 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+2020-02-16 15:28:24,667 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+2020-02-16 15:28:24,698 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] value attribute recived sucessfully
+2020-02-16 15:28:24,755 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] is cleared sucessfully
+2020-02-16 15:28:24,764 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+2020-02-16 15:28:24,880 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+2020-02-16 15:28:24,898 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+2020-02-16 15:28:24,926 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+2020-02-16 15:28:24,961 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:24,970 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+2020-02-16 15:28:25,108 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+2020-02-16 15:28:25,136 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] value attribute recived sucessfully
+2020-02-16 15:28:25,186 - com.bookmyfurniture.utility.PageActions -INFO - Element field [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] is cleared sucessfully
+2020-02-16 15:28:25,194 - com.bookmyfurniture.utility.PageActions -INFO - Cleared the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+2020-02-16 15:28:25,281 - com.bookmyfurniture.utility.PageActions -INFO - Send data to [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+2020-02-16 15:28:25,298 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+2020-02-16 15:28:25,327 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+2020-02-16 15:28:25,361 - com.bookmyfurniture.utility.PageActions -INFO - element is clickable
+2020-02-16 15:28:25,369 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+2020-02-16 15:28:25,504 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+2020-02-16 15:28:25,525 - com.bookmyfurniture.utility.PageActions -INFO - Wait for the [[ChromeDriver: chrome on WINDOWS (b86dc5aacb34385c9a4670062cf01337)] -> xpath: //div[@id='toast-container']] to be invisible
+2020-02-16 15:28:31,194 - com.bookmyfurniture.utility.PageActions -INFO - element is invisible now
+2020-02-16 15:28:31,509 - com.bookmyfurniture.utility.PageActions -ERROR - Exception in waitForAnElementToBeVisible method- Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //button[contains(text(),'Register')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f7a67cf6c0d8f1a6f0d80fa41fded28c
+2020-02-16 15:28:31,520 - com.bookmyfurniture.utility.PageActions -INFO - Element [[ChromeDriver: chrome on WINDOWS (f7a67cf6c0d8f1a6f0d80fa41fded28c)] -> xpath: //button[contains(text(),'Register')]] found on the page
+2020-02-16 15:28:31,538 - com.bookmyfurniture.utility.PageActions -ERROR - Exception in Click method- move target out of bounds
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f7a67cf6c0d8f1a6f0d80fa41fded28c
+2020-02-16 15:28:31,538 - com.bookmyfurniture.testcases.RegisterTest -INFO - Registereda user

@@ -37,6 +37,7 @@ dependencies {
 	compile group: 'org.hibernate', name: 'hibernate-core', version: '5.4.10.Final'
 }
 
+
 test{
 	useTestNG(){
 		suites "testng.xml"
@@ -44,6 +45,7 @@ test{
 		useDefaultListeners=true
 
 		outputDirectory = file("$projectDir/Myreports")
+		testLogging.showStandardStreams = true
 	}
 
 	reports.html.setDestination(file("$projectDir/GradleReport"))

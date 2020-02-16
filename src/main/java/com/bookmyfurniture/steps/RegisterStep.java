@@ -47,8 +47,7 @@ public class RegisterStep {
 	}
 	
 	public void enterEmailId() {
-		basePage=new UtilClass();
-		 usernmeForLogin=basePage.generateRandomString(6)+"@test.com";
+		 usernmeForLogin=UtilClass.generateRandomString(6)+"@test.com";
 		action.sendData(registerUser.enterEmail(), (usernmeForLogin));
 	}
 	
