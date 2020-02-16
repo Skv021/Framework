@@ -60,7 +60,7 @@ public class TestClass {
 
 			System.setProperty("webdriver.gecko.driver",
 					(new File(System.getProperty("user.dir")+"/lib/geckodriver.exe").getAbsolutePath()));
-			driver = new InternetExplorerDriver();
+			driver = new FirefoxDriver();
 		}
 		driver.get(websiteUrl);
 		driver.manage().window().maximize();
