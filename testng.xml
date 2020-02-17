@@ -22,7 +22,7 @@
 			
 		</classes>
 	</test>  <!-- Test -->
-
+<!--
 	<!--  <test name="FirefoxTest"> <parameter name="browser" value="firefox" /> 
 	 <classes>
 			<class name="com.bookmyfurniture.testcases.RegisterTest">
