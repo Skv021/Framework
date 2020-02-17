@@ -2,7 +2,6 @@ package com.bookmyfurniture.utility;
 
 
 import java.io.File;
-import java.io.IOException;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
@@ -37,13 +36,13 @@ public class UtilClass {
 
 	}
 
-	public void deleteAllImages() throws IOException {
-		File folder = new File(System.getProperty("user.dir") + "\\target\\" + "\\Screenshots\\");
-		if (folder.exists()) {
-			FileUtils.cleanDirectory(folder);
-		}
-
-	}
+//	public void deleteAllImages() throws IOException {
+//		File folder = new File(System.getProperty("user.dir") + "\\target\\" + "\\Screenshots\\");
+//		if (folder.exists()) {
+//			FileUtils.cleanDirectory(folder);
+//		}
+//
+//	}
 
 	public String addScreenshot(WebDriver driver){
 		try {

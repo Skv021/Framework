@@ -51,7 +51,8 @@ public class TestClass {
 
 	@Parameters("browser")
 	@BeforeClass
-	public WebDriver setDriver(String browserName) {
+	public void setDriver(String browserName) {
+		try {
 		String websiteUrl = ReadData.getDataValue("WEBSITE_URL", "config");
 		if (browserName.equalsIgnoreCase("chrome")) {
 
@@ -75,7 +76,11 @@ public class TestClass {
 		logger = Logger.getLogger(this.getClass());
 
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		return driver;
+		
+		}
+		catch(Exception e) {
+			logger.error("Exception in set driver for "+browserName+" with exception message as :"+e.getMessage());
+		}
 
 	}
 
