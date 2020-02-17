@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.bookmyfurniture.services.GetToken">
+      <class name="com.bookmyfurniture.testcases.LoginTest">
         <methods>
-          <include name="setProxy"/>
-          <include name="getPlacedOrder"/>
-          <include name="getAuthToken"/>
+          <include name="LoginWithWrongPassword"/>
+          <include name="setExtentReport"/>
+          <include name="Login"/>
+          <include name="getResult"/>
+          <include name="setDriver"/>
+          <include name="destoryExtent"/>
+          <include name="Logout"/>
+          <include name="LoginWithoutEmailId"/>
+          <include name="initLog"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- com.bookmyfurniture.services.GetToken -->
+      </class> <!-- com.bookmyfurniture.testcases.LoginTest -->
+      <class name="com.bookmyfurniture.testcases.RegisterTest">
+        <methods>
+          <include name="registerFurniture"/>
+          <include name="initLog"/>
+          <include name="getResult"/>
+          <include name="setDriver"/>
+          <include name="setDriver"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.bookmyfurniture.testcases.RegisterTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -32,7 +32,7 @@ public class TestClass {
 	ExtentTest test;
 	Logger logger;
 
-	@BeforeSuite
+	@BeforeSuite(alwaysRun=true)
 	public void setExtentReport(){
 		try{
 			String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
@@ -63,9 +63,9 @@ public class TestClass {
 					new File(System.getProperty("user.dir"), "/lib/chromedriver.exe").getAbsolutePath());
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
-
-			System.setProperty("webdriver.gecko.driver",
-					(new File(System.getProperty("user.dir")+"/lib/geckodriver.exe").getAbsolutePath()));
+//new File(System.getProperty("user.dir")+"/lib/geckodriver.exe").getAbsolutePath())
+			System.setProperty("webdriver.gecko.driver","C:\\Users\\sdetlabs\\Downloads\\geckodriver-v0.26.0-win32\\geckodriver.exe");
+					
 			driver = new FirefoxDriver();
 		}
 		driver.get(websiteUrl);
@@ -79,7 +79,13 @@ public class TestClass {
 		
 		}
 		catch(Exception e) {
-			logger.error("Exception in set driver for "+browserName+" with exception message as :"+e.getMessage());
+			e.printStackTrace();
+			//test.log(LogStatus.FAIL, "Exception in set driver with exception message as :"+e.getMessage());
+
+		    //extent.endTest(test);   
+		    
+		   // extent.flush();
+			logger.error("Exception in set driver with exception message as :"+e.getMessage());
 		}
 
 	}
@@ -107,7 +113,7 @@ public class TestClass {
 
 	}
 
-	@AfterSuite
+	@AfterSuite(alwaysRun=true)
 	public void destoryExtent() {
 		extent.flush();
 		extent.close();

@@ -1,17 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="5" failed="0" total="10" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1653" started-at="2020-02-05T21:07:34Z" finished-at="2020-02-05T21:07:36Z">
+  <suite name="Suite" duration-ms="65464" started-at="2020-02-17T07:54:44Z" finished-at="2020-02-17T07:55:50Z">
     <groups>
+      <group name="RegisterPositiveTest">
+        <method signature="RegisterTest.registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@5383967b]" name="registerFurniture" class="com.bookmyfurniture.testcases.RegisterTest"/>
+        <method signature="RegisterTest.registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@57536d79]" name="registerFurniture" class="com.bookmyfurniture.testcases.RegisterTest"/>
+      </group> <!-- RegisterPositiveTest -->
+      <group name="LoginNegativeTest">
+        <method signature="LoginTest.LoginWithWrongPassword()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="LoginWithWrongPassword" class="com.bookmyfurniture.testcases.LoginTest"/>
+        <method signature="LoginTest.LoginWithoutEmailId()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="LoginWithoutEmailId" class="com.bookmyfurniture.testcases.LoginTest"/>
+        <method signature="LoginTest.LoginWithWrongPassword()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="LoginWithWrongPassword" class="com.bookmyfurniture.testcases.LoginTest"/>
+        <method signature="LoginTest.LoginWithoutEmailId()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="LoginWithoutEmailId" class="com.bookmyfurniture.testcases.LoginTest"/>
+      </group> <!-- LoginNegativeTest -->
+      <group name="LoginPositiveTest">
+        <method signature="LoginTest.Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="Login" class="com.bookmyfurniture.testcases.LoginTest"/>
+        <method signature="LoginTest.Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="Login" class="com.bookmyfurniture.testcases.LoginTest"/>
+      </group> <!-- LoginPositiveTest -->
     </groups>
-    <test name="Default test" duration-ms="1653" started-at="2020-02-05T21:07:34Z" finished-at="2020-02-05T21:07:36Z">
-      <class name="com.bookmyfurniture.utility.DBConnection">
-        <test-method status="PASS" signature="verifyRegisteredUserDataInDb()[pri:0, instance:com.bookmyfurniture.utility.DBConnection@2d928643]" name="verifyRegisteredUserDataInDb" duration-ms="1640" started-at="2020-02-05T21:07:34Z" finished-at="2020-02-05T21:07:36Z">
+    <test name="FirefoxTest" duration-ms="22713" started-at="2020-02-17T07:54:44Z" finished-at="2020-02-17T07:55:07Z">
+      <class name="com.bookmyfurniture.testcases.RegisterTest">
+        <test-method status="FAIL" signature="setDriver(java.lang.String)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@57536d79]" name="setDriver" is-config="true" duration-ms="0" started-at="2020-02-17T07:54:44Z" finished-at="2020-02-17T07:54:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.bookmyfurniture.testcases.TestClass.setDriver(TestClass.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:552)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisteredUserDataInDb -->
-      </class> <!-- com.bookmyfurniture.utility.DBConnection -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setDriver -->
+        <test-method status="SKIP" signature="initLog()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@57536d79]" name="initLog" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" description="This method will pass the driver object to Register step class" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLog -->
+        <test-method status="SKIP" signature="registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@57536d79]" name="registerFurniture" duration-ms="0" started-at="2020-02-17T07:55:07Z" description="This test case will register a user sucessfully" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFurniture -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@57536d79]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="close()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@57536d79]" name="close" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.bookmyfurniture.testcases.RegisterTest -->
+      <class name="com.bookmyfurniture.testcases.LoginTest">
+        <test-method status="PASS" signature="setExtentReport()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="setExtentReport" is-config="true" duration-ms="327" started-at="2020-02-17T07:54:44Z" finished-at="2020-02-17T07:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="Login" duration-ms="16" started-at="2020-02-17T07:55:07Z" description="This test case will login a user sucessfully" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="initLog()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="initLog" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" description="This method will pass the driver object to Login step class" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLog -->
+        <test-method status="SKIP" signature="setDriver(java.lang.String)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="setDriver" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="SKIP" signature="LoginWithoutEmailId()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="LoginWithoutEmailId" duration-ms="16" started-at="2020-02-17T07:55:07Z" description="This test case will try to login with wrong email-Id" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithoutEmailId -->
+        <test-method status="SKIP" signature="LoginWithWrongPassword()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="LoginWithWrongPassword" duration-ms="0" started-at="2020-02-17T07:55:07Z" description="This test case will try to login with wrong password" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithWrongPassword -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="Logout()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="Logout" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="close()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="close" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="SKIP" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:07Z" finished-at="2020-02-17T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="destoryExtent()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2b2948e2]" name="destoryExtent" is-config="true" duration-ms="308" started-at="2020-02-17T07:55:50Z" finished-at="2020-02-17T07:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destoryExtent -->
+      </class> <!-- com.bookmyfurniture.testcases.LoginTest -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="65464" started-at="2020-02-17T07:54:44Z" finished-at="2020-02-17T07:55:50Z">
+      <class name="com.bookmyfurniture.testcases.RegisterTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@5383967b]" name="setDriver" is-config="true" duration-ms="4986" started-at="2020-02-17T07:54:44Z" finished-at="2020-02-17T07:54:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="initLog()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@5383967b]" name="initLog" is-config="true" duration-ms="31" started-at="2020-02-17T07:54:49Z" description="This method will pass the driver object to Register step class" finished-at="2020-02-17T07:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLog -->
+        <test-method status="PASS" signature="registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@5383967b]" name="registerFurniture" duration-ms="22831" started-at="2020-02-17T07:54:49Z" description="This test case will register a user sucessfully" finished-at="2020-02-17T07:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFurniture -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@5383967b]" name="close" is-config="true" duration-ms="5040" started-at="2020-02-17T07:55:12Z" finished-at="2020-02-17T07:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@5383967b]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:12Z" finished-at="2020-02-17T07:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerFurniture status=SUCCESS method=RegisterTest.registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@5383967b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.bookmyfurniture.testcases.RegisterTest -->
+      <class name="com.bookmyfurniture.testcases.LoginTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="setDriver" is-config="true" duration-ms="4441" started-at="2020-02-17T07:55:17Z" finished-at="2020-02-17T07:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="initLog()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="initLog" is-config="true" duration-ms="5" started-at="2020-02-17T07:55:22Z" description="This method will pass the driver object to Login step class" finished-at="2020-02-17T07:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLog -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="Login" duration-ms="1756" started-at="2020-02-17T07:55:22Z" description="This test case will login a user sucessfully" finished-at="2020-02-17T07:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="Logout" duration-ms="12377" started-at="2020-02-17T07:55:24Z" finished-at="2020-02-17T07:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:24Z" finished-at="2020-02-17T07:55:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTest.Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="LoginWithWrongPassword()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="LoginWithWrongPassword" duration-ms="1583" started-at="2020-02-17T07:55:36Z" description="This test case will try to login with wrong password" finished-at="2020-02-17T07:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithWrongPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:36Z" finished-at="2020-02-17T07:55:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=LoginTest.Logout()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="getResult" is-config="true" duration-ms="1" started-at="2020-02-17T07:55:38Z" finished-at="2020-02-17T07:55:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithWrongPassword status=SUCCESS method=LoginTest.LoginWithWrongPassword()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="LoginWithoutEmailId()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="LoginWithoutEmailId" duration-ms="7286" started-at="2020-02-17T07:55:38Z" description="This test case will try to login with wrong email-Id" finished-at="2020-02-17T07:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithoutEmailId -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-17T07:55:45Z" finished-at="2020-02-17T07:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithoutEmailId status=SUCCESS method=LoginTest.LoginWithoutEmailId()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@2038ae61]" name="close" is-config="true" duration-ms="5098" started-at="2020-02-17T07:55:45Z" finished-at="2020-02-17T07:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.bookmyfurniture.testcases.LoginTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
