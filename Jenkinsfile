@@ -15,7 +15,7 @@ pipeline {
                 echo "user name is $user"
                  jobName = user + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
                 currentBuild.displayName = "$jobName"
-                 currentBuild.description = "my new description"
+                
               }
             }
           }
@@ -41,7 +41,8 @@ pipeline {
                x=x.trim()
 echo "x=====$x========"
    publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: "extentReports//$x", reportFiles:"TestReport.html"  , reportName: 'MyReports', reportTitles: ''])
-      }
+       currentBuild.description = "extentReports//$x//TestReport.html"
+            }
       }
    }
    }
