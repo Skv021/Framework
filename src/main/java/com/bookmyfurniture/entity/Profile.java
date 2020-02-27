@@ -46,7 +46,7 @@ public class Profile {
 	@Column(nullable = false)
 	String password;
 	@Column(nullable = true)
-	int user_status;
+	int user_LogStatus;
 	
 	@ManyToOne//(cascade = {CascadeType.PERSIST, CascadeType.MERGE} )
    // @JoinTable(name="Role", inverseJoinColumns=@JoinColumn(name="roleId"))
@@ -125,17 +125,17 @@ public class Profile {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public int getUser_status() {
-		return user_status;
+	public int getUser_LogStatus() {
+		return user_LogStatus;
 	}
-	public void setUser_status(int user_status) {
-		this.user_status = user_status;
+	public void setUser_LogStatus(int user_LogStatus) {
+		this.user_LogStatus = user_LogStatus;
 	}
 	
 	
 	public Profile(int user_id, String address_city, String address_land_mark, String address_lane1,
 			String address_lane2, String address_state, String address_zip_code, String emailId, String gender,
-			String mobileNo, String name, String password, int user_status, Role role_role_id) {
+			String mobileNo, String name, String password, int user_LogStatus, Role role_role_id) {
 		super();
 		this.user_id = user_id;
 		this.address_city = address_city;
@@ -149,7 +149,7 @@ public class Profile {
 		this.mobileNo = mobileNo;
 		this.name = name;
 		this.password = password;
-		this.user_status = user_status;
+		this.user_LogStatus = user_LogStatus;
 		this.role = role_role_id;
 	}
 	@Override
@@ -158,7 +158,7 @@ public class Profile {
 				+ address_land_mark + ", address_lane1=" + address_lane1 + ", address_lane2=" + address_lane2
 				+ ", address_state=" + address_state + ", address_zip_code=" + address_zip_code + ", emailId="
 				+ emailId + ", gender=" + gender + ", mobileNo=" + mobileNo + ", name=" + name + ", password="
-				+ password + ", user_status=" + user_status + ", role_role_id=" + role + "]";
+				+ password + ", user_LogStatus=" + user_LogStatus + ", role_role_id=" + role + "]";
 	}
 	public Role getRole() {
 		return role;

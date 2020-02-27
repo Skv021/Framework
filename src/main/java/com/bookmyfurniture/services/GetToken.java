@@ -68,7 +68,7 @@ public class GetToken {
 		System.out.println("authorizationHeader" + response.getHeader("Content-Type"));
 
 		System.out.println("responsse-->" + response.body().asString());
-		Assert.assertEquals(response.statusCode(), 202);
+		Assert.assertEquals(response.getStatusCode(), 202);
 	}
 
 	// @Test(priority = 3)
@@ -76,9 +76,9 @@ public class GetToken {
 		Response res = given().header("Authorization", "Bearer " + token_value)
 				.header("Content-Type", "application/json").baseUri(baseURi).basePath("/rest/api/cart/141").when()
 				.get();
-		System.out.println((res.statusCode()));
+		System.out.println((res.getStatusCode()));
 
-		Assert.assertEquals(res.statusCode(), 200);
+		Assert.assertEquals(res.getStatusCode(), 200);
 	}
 
 	 @Test(priority=2)
@@ -101,7 +101,7 @@ public class GetToken {
 
 		httpRequest.body(jsonObject);
 		Response response = httpRequest.post("/rest/api/cart/user/141");
-		System.out.println((response.statusCode()));
+		System.out.println((response.getStatusCode()));
 	}
 
 	//@Test(priority=2)
@@ -112,6 +112,6 @@ public class GetToken {
 		// JSONObject
 		httpRequest.body(request_payload);
 		Response response = httpRequest.post("/rest/api/order/");
-		System.out.println("placed order status code ->" + response.getStatusCode());
+		System.out.println("placed order LogStatus code ->" + response.getStatusCode());
 	}
 }
