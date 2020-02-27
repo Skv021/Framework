@@ -15,6 +15,7 @@ pipeline {
                 echo "user name is $user"
                  jobName = user + "_" + new Date().format("yyyy_MM_dd_HH_mm_ss", TimeZone.getTimeZone('UTC'))
                 currentBuild.displayName = "$jobName"
+                 currentBuild.description = "my new description"
               }
             }
           }
