@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="browser" value="firefox"/>
-  <test name="FirefoxTest(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
+<suite thread-count="2" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <test name="ChromeTest(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.bookmyfurniture.testcases.LoginTest">
         <methods>
@@ -14,6 +14,7 @@
           <include name="setDriver"/>
           <include name="destoryExtent"/>
           <include name="Logout"/>
+          <include name="nameBefore"/>
           <include name="LoginWithoutEmailId"/>
           <include name="initLog"/>
           <include name="close"/>
@@ -25,10 +26,10 @@
           <include name="initLog"/>
           <include name="getResult"/>
           <include name="setDriver"/>
-          <include name="setDriver"/>
+          <include name="nameBefore"/>
           <include name="close"/>
         </methods>
       </class> <!-- com.bookmyfurniture.testcases.RegisterTest -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -14,9 +14,9 @@
 			<class name="com.bookmyfurniture.testcases.LoginTest">
 				<methods>
 					<include name="Login" />
-					<include name="Logout" />
-					<include name="LoginWithWrongPassword" />
-					<include name="LoginWithoutEmailId" />
+					<exclude name="Logout" />
+					<exclude name="LoginWithWrongPassword" />
+					<exclude name="LoginWithoutEmailId" />
 				</methods>
 			</class>
 			

@@ -16,7 +16,7 @@ public class RegisterTest extends TestClass{
 	
 	@Test(description="This test case will register a user sucessfully" ,groups = { "RegisterPositiveTest" })
 	public void registerFurniture() {
-		test=extent.startTest("Test sucessfull Register a user");
+		//test=extent.startTest("registerFurniture");
 		registerStep.signInLink();	
 		registerStep.createUser();
 		registerStep.verifyRegisterPageDisplayed();
@@ -30,13 +30,13 @@ public class RegisterTest extends TestClass{
 	}
 	@Test(description="This test will be passed")
 	public void skv() {
-		test=extent.startTest("Started test");
+		//test=extent.startTest("Dem");
 		logger.info("test case passed");
 	}
 	
 	@Test(description="This test will failed intentionally")
 	public void faiTest() {
-		test = extent.startTest("failed Tc");
+		//test = extent.startTest("TC_faiTest");
 		Assert.fail("This test fails");
 		logger.info("Test case failed");
 	}

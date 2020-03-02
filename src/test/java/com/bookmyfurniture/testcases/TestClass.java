@@ -1,7 +1,10 @@
 package com.bookmyfurniture.testcases;
 
 
+import static com.bookmyfurniture.utility.PageActions.test;
+
 import java.io.File;
+import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -16,20 +19,20 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import com.bookmyfurniture.utility.ReadData;
 import com.bookmyfurniture.utility.UtilClass;
 import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class TestClass {
 
 	WebDriver driver;
-	static ExtentReports extent;
-	ExtentTest test;
+	public static ExtentReports extent;
+	
 	Logger logger;
 
 	@BeforeSuite(alwaysRun=true)
@@ -89,7 +92,12 @@ public class TestClass {
 		}
 
 	}
-
+	
+	@BeforeMethod
+	public void nameBefore(Method method)
+	{
+		test = extent.startTest("------Test Started "+ method.getName()+"-----");
+	}
 	@AfterMethod
 	public void getResult(ITestResult result){
 		
@@ -113,7 +121,7 @@ public class TestClass {
 
 	}
 
-	@AfterSuite(alwaysRun=true)
+	@AfterSuite
 	public void destoryExtent() {
 		extent.flush();
 		extent.close();
@@ -126,7 +134,9 @@ public class TestClass {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		
 		driver.close();
+		
 	}
 
 }

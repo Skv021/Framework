@@ -22,8 +22,10 @@ public class LoginStep {
 		loginPage=new LoginPage(driver);
 		action =new PageActions(driver);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		 
 	}
 
+	
 	public void clickOnHomeLink() {
 		//action.waitTillInvisbilityOfToastMsg(loginPage.toastMsgElement());
 		action.Click(loginPage.signInLink());

@@ -9,6 +9,7 @@ import com.bookmyfurniture.pages.RegisterPage;
 import com.bookmyfurniture.utility.PageActions;
 import com.bookmyfurniture.utility.ReadData;
 import com.bookmyfurniture.utility.UtilClass;
+import com.relevantcodes.extentreports.ExtentTest;
 
 public class RegisterStep {
 
@@ -17,6 +18,7 @@ public class RegisterStep {
 	PageActions action;
 	UtilClass basePage;
 	String usernmeForLogin;
+	ExtentTest test;
 	public RegisterStep(WebDriver driver) {
 		this.driver=driver;
 		registerUser=new RegisterPage(driver);

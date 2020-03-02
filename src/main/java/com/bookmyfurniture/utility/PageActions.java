@@ -12,23 +12,23 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.relevantcodes.extentreports.ExtentTest;
-
 import com.relevantcodes.extentreports.LogStatus;
 
 public class PageActions {
 
 	WebDriver driver;
 	Logger logger;
-	ExtentTest test;
+	public static ExtentTest test;
 
 	public PageActions(WebDriver driver) {
 		this.driver = driver;
 		logger = Logger.getLogger(this.getClass());
+		
 	}
 
 	public boolean verifyPageOpensUp(String expectedUrl) {
 		try {
-			if (driver.getCurrentUrl().equals(expectedUrl)) {
+			if (driver.getCurrentUrl().contains(expectedUrl)) {
 				logger.info("Current Page URL " + driver.getCurrentUrl() + " is matching with expected " + expectedUrl
 						+ " url");
 				test.log(LogStatus.INFO, "Current Page URL " + driver.getCurrentUrl() + " is matching with expected " + expectedUrl
@@ -39,12 +39,12 @@ public class PageActions {
 						+ expectedUrl + " url");
 				test.log(LogStatus.INFO,"Current Page URL " + driver.getCurrentUrl() + " is not matching with expected "
 						+ expectedUrl + " url");
+				
 				return false;
 			}
 		} catch (Exception e) {
 			logger.error("Exception in verifyPageOpensUp method- " + e.getMessage());
-			test.log(LogStatus.FAIL, "Current Page URL " + driver.getCurrentUrl() + " is not matching with expected "
-						+ expectedUrl + " url");
+			test.log(LogStatus.FAIL, (e.getMessage()));
 			return false;
 		}
 	}
@@ -57,7 +57,7 @@ public class PageActions {
 			}
 		} catch (Exception e) {
 			logger.error(webelementOnpage + " not found");
-			test.log(LogStatus.FAIL,webelementOnpage + " not found");
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
@@ -72,7 +72,7 @@ public class PageActions {
 			test.log(LogStatus.INFO, "Element " + element + " clicked successfully");
 		} catch (Exception e) {
 			logger.error("Exception in Click method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in Click method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
@@ -87,7 +87,7 @@ public class PageActions {
 			test.log(LogStatus.INFO,"Send data to " + element + " sucessfully");
 		} catch (Exception e) {
 			logger.error("Exception in sendData method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in sendData method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
@@ -103,7 +103,7 @@ public class PageActions {
 			}
 		} catch (Exception e) {
 			logger.error("Exception in waitForElement method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in waitForElement method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 		return element;
 	}
@@ -119,7 +119,7 @@ public class PageActions {
 			test.log(LogStatus.INFO,"Slected the " + value + " from " + selectTagName + " sucessfully");
 		} catch (Exception e) {
 			logger.error("Exception in selectTheValue method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in selectTheValue method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
@@ -137,7 +137,7 @@ public class PageActions {
 			}
 		} catch (Exception e) {
 			logger.error("Exception in swipeWhileNotFound method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in swipeWhileNotFound method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
@@ -149,7 +149,7 @@ public class PageActions {
 			return true;
 		} catch (NoSuchElementException e) {
 			logger.error("Exception in isElementPresent method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in isElementPresent method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 			return false;
 		}
 	}
@@ -166,7 +166,7 @@ public class PageActions {
 			}
 		} catch (Exception e) {
 			logger.error("Exception in verifyPageHeader method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in verifyPageHeader method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
@@ -181,7 +181,7 @@ public class PageActions {
 			}
 		} catch (Exception e) {
 			logger.error("Exception in clearATextField method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in clearATextField method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
@@ -200,7 +200,7 @@ public class PageActions {
 			test.log(LogStatus.INFO,"element is clickable");
 		} catch (Exception e) {
 			logger.error("Exception in waitForAnElementToBeVisible method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in waitForAnElementToBeVisible method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
@@ -216,7 +216,7 @@ public class PageActions {
 			test.log(LogStatus.INFO,"element is invisible now");
 		} catch (Exception e) {
 			logger.error("Exception in waitTillInvisbilityOfToastMsg method- " + e.getMessage());
-			test.log(LogStatus.FAIL,"Exception in waitTillInvisbilityOfToastMsg method- " + e.getMessage());
+			test.log(LogStatus.FAIL,(e.getMessage()));
 		}
 	}
 
