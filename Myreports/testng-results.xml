@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38313" started-at="2020-03-02T15:34:48Z" finished-at="2020-03-02T15:35:26Z">
+  <suite name="Suite" duration-ms="37892" started-at="2020-03-05T14:45:27Z" finished-at="2020-03-05T14:46:04Z">
     <groups>
       <group name="RegisterPositiveTest">
-        <method signature="RegisterTest.registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1b635b88]" name="registerFurniture" class="com.bookmyfurniture.testcases.RegisterTest"/>
+        <method signature="RegisterTest.registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="registerFurniture" class="com.bookmyfurniture.testcases.RegisterTest"/>
       </group> <!-- RegisterPositiveTest -->
-      <group name="LoginNegativeTest">
-        <method signature="LoginTest.LoginWithWrongPassword()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="LoginWithWrongPassword" class="com.bookmyfurniture.testcases.LoginTest"/>
-        <method signature="LoginTest.LoginWithoutEmailId()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="LoginWithoutEmailId" class="com.bookmyfurniture.testcases.LoginTest"/>
-      </group> <!-- LoginNegativeTest -->
       <group name="LoginPositiveTest">
-        <method signature="LoginTest.Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="Login" class="com.bookmyfurniture.testcases.LoginTest"/>
+        <method signature="LoginTest.Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@17a291f7]" name="Login" class="com.bookmyfurniture.testcases.LoginTest"/>
       </group> <!-- LoginPositiveTest -->
     </groups>
-    <test name="ChromeTest" duration-ms="38313" started-at="2020-03-02T15:34:48Z" finished-at="2020-03-02T15:35:26Z">
+    <test name="ChromeTest" duration-ms="37892" started-at="2020-03-05T14:45:27Z" finished-at="2020-03-05T14:46:04Z">
       <class name="com.bookmyfurniture.testcases.RegisterTest">
-        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1b635b88]" name="setDriver" is-config="true" duration-ms="7412" started-at="2020-03-02T15:34:48Z" finished-at="2020-03-02T15:34:55Z">
+        <test-method status="PASS" signature="setExtentReport()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="setExtentReport" is-config="true" duration-ms="342" started-at="2020-03-05T14:45:26Z" finished-at="2020-03-05T14:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="setDriver" is-config="true" duration-ms="8123" started-at="2020-03-05T14:45:27Z" finished-at="2020-03-05T14:45:35Z">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="initLog()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1b635b88]" name="initLog" is-config="true" duration-ms="5" started-at="2020-03-02T15:34:55Z" description="This method will pass the driver object to Register step class" finished-at="2020-03-02T15:34:55Z">
+        <test-method status="PASS" signature="initLog()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="initLog" is-config="true" duration-ms="60" started-at="2020-03-05T14:45:35Z" description="This method will pass the driver object to Register step class" finished-at="2020-03-05T14:45:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initLog -->
-        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1b635b88]" name="nameBefore" is-config="true" duration-ms="0" started-at="2020-03-02T15:34:55Z" finished-at="2020-03-02T15:34:55Z">
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="nameBefore" is-config="true" duration-ms="1" started-at="2020-03-05T14:45:35Z" finished-at="2020-03-05T14:45:35Z">
           <params>
             <param index="0">
               <value>
@@ -43,32 +43,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method status="PASS" signature="registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1b635b88]" name="registerFurniture" duration-ms="22756" started-at="2020-03-02T15:34:55Z" description="This test case will register a user sucessfully" finished-at="2020-03-02T15:35:18Z">
+        <test-method status="PASS" signature="registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="registerFurniture" duration-ms="24618" started-at="2020-03-05T14:45:35Z" description="This test case will register a user sucessfully" finished-at="2020-03-05T14:45:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerFurniture -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1b635b88]" name="getResult" is-config="true" duration-ms="0" started-at="2020-03-02T15:35:18Z" finished-at="2020-03-02T15:35:18Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="getResult" is-config="true" duration-ms="1" started-at="2020-03-05T14:45:59Z" finished-at="2020-03-05T14:45:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=registerFurniture status=SUCCESS method=RegisterTest.registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1b635b88] output={null}]]]>
+                <![CDATA[[TestResult name=registerFurniture status=SUCCESS method=RegisterTest.registerFurniture()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1b635b88]" name="close" is-config="true" duration-ms="5048" started-at="2020-03-02T15:35:18Z" finished-at="2020-03-02T15:35:23Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="close" is-config="true" duration-ms="5081" started-at="2020-03-05T14:45:59Z" finished-at="2020-03-05T14:46:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.bookmyfurniture.testcases.RegisterTest -->
-      <class name="com.bookmyfurniture.testcases.LoginTest">
-        <test-method status="PASS" signature="setExtentReport()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="setExtentReport" is-config="true" duration-ms="294" started-at="2020-03-02T15:34:48Z" finished-at="2020-03-02T15:34:48Z">
+        <test-method status="PASS" signature="destoryExtent()[pri:0, instance:com.bookmyfurniture.testcases.RegisterTest@1ec8c4c8]" name="destoryExtent" is-config="true" duration-ms="339" started-at="2020-03-05T14:46:05Z" finished-at="2020-03-05T14:46:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setExtentReport -->
-        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="setDriver" is-config="true" duration-ms="5165" started-at="2020-03-02T15:34:48Z" finished-at="2020-03-02T15:34:53Z">
+        </test-method> <!-- destoryExtent -->
+      </class> <!-- com.bookmyfurniture.testcases.RegisterTest -->
+      <class name="com.bookmyfurniture.testcases.LoginTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@17a291f7]" name="setDriver" is-config="true" duration-ms="7682" started-at="2020-03-05T14:45:27Z" finished-at="2020-03-05T14:45:34Z">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="initLog()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="initLog" is-config="true" duration-ms="36" started-at="2020-03-02T15:34:53Z" description="This method will pass the driver object to Login step class" finished-at="2020-03-02T15:34:53Z">
+        <test-method status="PASS" signature="initLog()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@17a291f7]" name="initLog" is-config="true" duration-ms="52" started-at="2020-03-05T14:45:34Z" description="This method will pass the driver object to Login step class" finished-at="2020-03-05T14:45:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initLog -->
-        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="nameBefore" is-config="true" duration-ms="3" started-at="2020-03-02T15:34:53Z" finished-at="2020-03-02T15:34:53Z">
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@17a291f7]" name="nameBefore" is-config="true" duration-ms="4" started-at="2020-03-05T14:45:34Z" finished-at="2020-03-05T14:45:34Z">
           <params>
             <param index="0">
               <value>
@@ -94,107 +94,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="Login" duration-ms="2380" started-at="2020-03-02T15:34:53Z" description="This test case will login a user sucessfully" finished-at="2020-03-02T15:34:56Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@17a291f7]" name="Login" duration-ms="3781" started-at="2020-03-05T14:45:34Z" description="This test case will login a user sucessfully" finished-at="2020-03-05T14:45:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="getResult" is-config="true" duration-ms="2" started-at="2020-03-02T15:34:56Z" finished-at="2020-03-02T15:34:56Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@17a291f7]" name="getResult" is-config="true" duration-ms="2" started-at="2020-03-05T14:45:38Z" finished-at="2020-03-05T14:45:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTest.Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe] output={null}]]]>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTest.Login()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@17a291f7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="nameBefore" is-config="true" duration-ms="1" started-at="2020-03-02T15:34:56Z" finished-at="2020-03-02T15:34:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.bookmyfurniture.testcases.LoginTest.Logout()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nameBefore -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="Logout" duration-ms="16780" started-at="2020-03-02T15:34:56Z" finished-at="2020-03-02T15:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="getResult" is-config="true" duration-ms="0" started-at="2020-03-02T15:35:12Z" finished-at="2020-03-02T15:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Logout status=SUCCESS method=LoginTest.Logout()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="nameBefore" is-config="true" duration-ms="1" started-at="2020-03-02T15:35:12Z" finished-at="2020-03-02T15:35:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.bookmyfurniture.testcases.LoginTest.LoginWithWrongPassword()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nameBefore -->
-        <test-method status="PASS" signature="LoginWithWrongPassword()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="LoginWithWrongPassword" duration-ms="1545" started-at="2020-03-02T15:35:12Z" description="This test case will try to login with wrong password" finished-at="2020-03-02T15:35:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithWrongPassword -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="getResult" is-config="true" duration-ms="0" started-at="2020-03-02T15:35:14Z" finished-at="2020-03-02T15:35:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginWithWrongPassword status=SUCCESS method=LoginTest.LoginWithWrongPassword()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="nameBefore" is-config="true" duration-ms="0" started-at="2020-03-02T15:35:14Z" finished-at="2020-03-02T15:35:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.bookmyfurniture.testcases.LoginTest.LoginWithoutEmailId()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nameBefore -->
-        <test-method status="PASS" signature="LoginWithoutEmailId()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="LoginWithoutEmailId" duration-ms="7295" started-at="2020-03-02T15:35:14Z" description="This test case will try to login with wrong email-Id" finished-at="2020-03-02T15:35:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithoutEmailId -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="getResult" is-config="true" duration-ms="1" started-at="2020-03-02T15:35:21Z" finished-at="2020-03-02T15:35:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginWithoutEmailId status=SUCCESS method=LoginTest.LoginWithoutEmailId()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="close" is-config="true" duration-ms="5089" started-at="2020-03-02T15:35:21Z" finished-at="2020-03-02T15:35:26Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@17a291f7]" name="close" is-config="true" duration-ms="5063" started-at="2020-03-05T14:45:38Z" finished-at="2020-03-05T14:45:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="destoryExtent()[pri:0, instance:com.bookmyfurniture.testcases.LoginTest@194efafe]" name="destoryExtent" is-config="true" duration-ms="381" started-at="2020-03-02T15:35:26Z" finished-at="2020-03-02T15:35:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destoryExtent -->
       </class> <!-- com.bookmyfurniture.testcases.LoginTest -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->

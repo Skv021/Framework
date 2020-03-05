@@ -3064,3 +3064,255 @@ Session ID: 14ded4e127487d08a3c497582a999eeb
 16:24:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 16:24:29 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 16:24:29 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+14:45:34 ERROR PageActions:38 - Current Page URL http://okmry52647dns.eastus.cloudapp.azure.com:9090/home is not matching with expected http://okmry52647dns.eastus.cloudapp.azure.com:9090/user_entry/login url
+14:45:34 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: //span[contains(text(),'Sign In ')]]
+14:45:35 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+14:45:35 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //span[contains(text(),'Sign In ')]]
+14:45:35 INFO  PageActions:199 - element is clickable
+14:45:35 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+14:45:35 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+14:45:35 INFO  PageActions:199 - element is clickable
+14:45:35 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+14:45:35 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+14:45:35 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+14:45:36 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+14:45:36 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]]
+14:45:36 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+14:45:36 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] to be visible
+14:45:36 INFO  PageActions:199 - element is clickable
+14:45:36 INFO  PageActions:199 - element is clickable
+14:45:36 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] found on the page
+14:45:36 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+14:45:36 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+14:45:36 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] clicked successfully
+14:45:36 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter User Name']]
+14:45:36 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+14:45:36 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter User Name']] to be visible
+14:45:36 INFO  PageActions:199 - element is clickable
+14:45:36 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter User Name']] found on the page
+14:45:37 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+14:45:37 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+14:45:37 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+14:45:37 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter User Name']] clicked successfully
+14:45:37 INFO  PageActions:199 - element is clickable
+14:45:37 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter User Name']] text field
+14:45:37 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+14:45:37 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+14:45:37 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter User Name']] sucessfully
+14:45:37 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+14:45:37 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter Mobile Number']]
+14:45:37 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter Mobile Number']] to be visible
+14:45:38 INFO  PageActions:199 - element is clickable
+14:45:38 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter Mobile Number']] found on the page
+14:45:38 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+14:45:38 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+14:45:38 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+14:45:38 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter Mobile Number']] clicked successfully
+14:45:38 INFO  PageActions:199 - element is clickable
+14:45:38 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+14:45:38 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter Mobile Number']] text field
+14:45:38 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //input[@placeholder='Enter Mobile Number']] sucessfully
+14:45:38 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (19fc4b232877d59668d5e8f8ba4f08c6)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+14:45:38 INFO  LoginTest:28 - Logged in user
+14:45:38 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']]
+14:45:38 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] to be visible
+14:45:38 INFO  PageActions:199 - element is clickable
+14:45:38 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] found on the page
+14:45:38 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] clicked successfully
+14:45:39 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] text field
+14:45:39 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] sucessfully
+14:45:39 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']]
+14:45:39 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] to be visible
+14:45:39 INFO  PageActions:199 - element is clickable
+14:45:39 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] found on the page
+14:45:39 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] clicked successfully
+14:45:39 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] text field
+14:45:39 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] sucessfully
+14:45:39 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //button[contains(text(),'Register')]]
+14:45:39 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //button[contains(text(),'Register')]] to be visible
+14:45:59 ERROR PageActions:202 - Exception in waitForAnElementToBeVisible method- Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //button[contains(text(),'Register')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5885e320db46fc4b1b7b859fd74d208b
+14:45:59 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (5885e320db46fc4b1b7b859fd74d208b)] -> xpath: //button[contains(text(),'Register')]] found on the page
+14:45:59 ERROR PageActions:74 - Exception in Click method- move target out of bounds
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5885e320db46fc4b1b7b859fd74d208b
+14:45:59 INFO  RegisterTest:28 - Registereda user
+14:46:05 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+14:46:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+14:46:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:46:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:46:05 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+14:46:05 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+14:46:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+14:46:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:46:05 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:46:05 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+14:56:15 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //span[contains(text(),'Sign In ')]]
+14:56:15 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+14:56:15 ERROR PageActions:38 - Current Page URL http://okmry52647dns.eastus.cloudapp.azure.com:9090/home is not matching with expected http://okmry52647dns.eastus.cloudapp.azure.com:9090/user_entry/login url
+14:56:15 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]]
+14:56:15 INFO  PageActions:199 - element is clickable
+14:56:15 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+14:56:15 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+14:56:15 INFO  PageActions:199 - element is clickable
+14:56:15 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+14:56:15 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+14:56:15 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]]
+14:56:16 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+14:56:16 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] to be visible
+14:56:16 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+14:56:16 INFO  PageActions:199 - element is clickable
+14:56:16 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] found on the page
+14:56:16 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+14:56:16 INFO  PageActions:199 - element is clickable
+14:56:16 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+14:56:16 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //button[@class='btn btn-primary btn-md' and contains(text(),'Create your Account')]] clicked successfully
+14:56:16 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter User Name']]
+14:56:16 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+14:56:16 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+14:56:16 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter User Name']] to be visible
+14:56:16 INFO  PageActions:199 - element is clickable
+14:56:16 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter User Name']] found on the page
+14:56:16 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+14:56:16 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+14:56:16 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+14:56:16 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter User Name']] clicked successfully
+14:56:16 INFO  PageActions:199 - element is clickable
+14:56:16 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter User Name']] text field
+14:56:16 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+14:56:17 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter User Name']] sucessfully
+14:56:17 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+14:56:17 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter Mobile Number']]
+14:56:17 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+14:56:17 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter Mobile Number']] to be visible
+14:56:17 INFO  PageActions:199 - element is clickable
+14:56:17 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter Mobile Number']] found on the page
+14:56:17 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+14:56:17 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+14:56:17 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+14:56:17 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter Mobile Number']] clicked successfully
+14:56:17 INFO  PageActions:199 - element is clickable
+14:56:17 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+14:56:17 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter Mobile Number']] text field
+14:56:17 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //input[@placeholder='Enter Mobile Number']] sucessfully
+14:56:17 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+14:56:17 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']]
+14:56:17 INFO  LoginTest:28 - Logged in user
+14:56:17 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] to be visible
+14:56:17 INFO  PageActions:199 - element is clickable
+14:56:17 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] found on the page
+14:56:18 INFO  PageActions:212 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //div[@id='toast-container']] to be invisible
+14:56:18 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] clicked successfully
+14:56:18 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] text field
+14:56:18 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Email']] sucessfully
+14:56:18 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']]
+14:56:18 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] to be visible
+14:56:18 INFO  PageActions:199 - element is clickable
+14:56:18 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] found on the page
+14:56:18 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] clicked successfully
+14:56:18 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] text field
+14:56:18 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //div[@class='sign-up-main']//..//input[@placeholder='Enter Password']] sucessfully
+14:56:18 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //button[contains(text(),'Register')]]
+14:56:18 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //button[contains(text(),'Register')]] to be visible
+14:56:23 INFO  PageActions:215 - element is invisible now
+14:56:23 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Hi,')]]
+14:56:23 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Hi,')]] to be visible
+14:56:24 INFO  PageActions:199 - element is clickable
+14:56:24 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Hi,')]] found on the page
+14:56:24 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Hi,')]] clicked successfully
+14:56:24 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]]
+14:56:24 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]] to be visible
+14:56:24 INFO  PageActions:199 - element is clickable
+14:56:24 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]] found on the page
+14:56:29 INFO  PageActions:71 - Element Proxy element for: DefaultElementLocator 'By.xpath: (//mat-icon[contains(text(),'power_settings_new')])[2]' clicked successfully
+14:56:34 INFO  PageActions:212 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //div[@id='toast-container']] to be invisible
+14:56:34 INFO  PageActions:215 - element is invisible now
+14:56:34 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]]
+14:56:34 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+14:56:35 INFO  PageActions:199 - element is clickable
+14:56:35 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+14:56:35 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+14:56:35 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+14:56:35 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+14:56:35 INFO  PageActions:199 - element is clickable
+14:56:35 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+14:56:35 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+14:56:35 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+14:56:35 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+14:56:35 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+14:56:35 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+14:56:35 INFO  PageActions:199 - element is clickable
+14:56:35 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+14:56:36 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+14:56:36 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+14:56:36 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+14:56:36 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+14:56:36 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+14:56:36 INFO  PageActions:199 - element is clickable
+14:56:36 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+14:56:36 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+14:56:36 INFO  PageActions:212 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //div[@id='toast-container']] to be invisible
+14:56:36 INFO  PageActions:215 - element is invisible now
+14:56:36 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]]
+14:56:36 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] to be visible
+14:56:36 INFO  PageActions:199 - element is clickable
+14:56:36 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] found on the page
+14:56:36 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //span[contains(text(),'Sign In ')]] clicked successfully
+14:56:36 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]]
+14:56:36 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] to be visible
+14:56:37 INFO  PageActions:199 - element is clickable
+14:56:37 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] found on the page
+14:56:37 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] clicked successfully
+14:56:37 INFO  PageActions:176 - Element field [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] value attribute recived sucessfully
+14:56:37 INFO  PageActions:179 - Element field [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] is cleared sucessfully
+14:56:37 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] text field
+14:56:37 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Email'])[1]] sucessfully
+14:56:37 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]]
+14:56:37 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] to be visible
+14:56:37 INFO  PageActions:199 - element is clickable
+14:56:37 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] found on the page
+14:56:37 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] clicked successfully
+14:56:37 INFO  PageActions:176 - Element field [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] value attribute recived sucessfully
+14:56:37 INFO  PageActions:179 - Element field [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] is cleared sucessfully
+14:56:37 INFO  PageActions:83 - Cleared the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] text field
+14:56:38 INFO  PageActions:86 - Send data to [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//input[@placeholder='Enter Password'])[1]] sucessfully
+14:56:38 INFO  PageActions:193 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]]
+14:56:38 INFO  PageActions:196 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] to be visible
+14:56:38 INFO  PageActions:199 - element is clickable
+14:56:38 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] found on the page
+14:56:38 INFO  PageActions:71 - Element [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: (//button[contains(text(),'Sign In')])[1]] clicked successfully
+14:56:38 INFO  PageActions:212 - Wait for the [[ChromeDriver: chrome on WINDOWS (1b59fee02f2f969d87b7bc7b2ee76833)] -> xpath: //div[@id='toast-container']] to be invisible
+14:56:39 ERROR PageActions:202 - Exception in waitForAnElementToBeVisible method- Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //button[contains(text(),'Register')]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ee6c447b213446ba2aa72cf75236e635
+14:56:39 INFO  PageActions:67 - Element [[ChromeDriver: chrome on WINDOWS (ee6c447b213446ba2aa72cf75236e635)] -> xpath: //button[contains(text(),'Register')]] found on the page
+14:56:39 ERROR PageActions:74 - Exception in Click method- move target out of bounds
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'azstorageexp', ip: '10.0.0.4', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sdetlabs\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50380}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ee6c447b213446ba2aa72cf75236e635
+14:56:39 INFO  RegisterTest:28 - Registereda user
+14:56:44 INFO  PageActions:215 - element is invisible now
+14:56:51 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+14:56:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+14:56:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:56:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:56:51 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+14:56:51 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+14:56:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+14:56:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+14:56:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+14:56:51 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/sdetlabs/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
